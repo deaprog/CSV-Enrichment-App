@@ -25,6 +25,7 @@ The project was built as part of the Adverity Full-Stack challenge, where users 
 ```bash
 git clone https://github.com/deaprog/csv-enrichment-app.git
 cd csv-enrichment-app
+```
 
 ### 2. Run Method:
 
@@ -34,12 +35,13 @@ cd csv-enrichment-app
 cd frontend
 npm install
 npm start
+```
 
 #### Backend (Django + Celery + Redis)
 
 ```bash
 docker-compose up --build
-
+```
 
 ### 3. Unit test:
 
@@ -47,10 +49,11 @@ docker-compose up --build
 
 ```bash
 docker-compose exec backend python manage.py test
+```
 
 #### Frontend 
 
 ```bash
 cd frontend
 npm test
-
+```
