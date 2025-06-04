@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  font-family: "Inter", "Segoe UI", Tahoma, sans-serif;
+  background-color: #f2f4f8;
+  color: #222;
+}
+
+.container {
+  margin: 40px auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.main-title {
+  font-size: 2.5rem;
+  color: #1d4ed8;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 1.4rem;
+  margin: 30px 0 15px;
+  color: #374151;
+}
+
+.upload-section,
+.file-section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 30px;
+}
+
+.file-input {
+  padding: 8px;
+  font-size: 1rem;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+}
+
+.upload-button,
+.file-button {
+  background-color: #3b82f6;
+  color: #fff;
+  padding: 10px 18px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.upload-button:hover,
+.file-button:hover {
+  background-color: #2563eb;
+}
+
+.file-list {
+  list-style: none;
+  padding: 0;
+}
+
+.file-list li {
+  margin-bottom: 10px;
+}
+
+.preview-section {
+  margin-top: 40px;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+.styled-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+  background: white;
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 12px 16px;
+  border: 1px solid #e5e7eb;
+  text-align: left;
+}
+
+.styled-table th {
+  background-color: #f3f4f6;
+  font-weight: 600;
+}
+
+.styled-table tr:nth-child(even) {
+  background-color: #f9fafb;
+}
+
+.file-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 16px;
+}
+
+.file-card {
+  background: #f9fafc;
+  border: 1px solid #e0e7ff;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.file-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+}
+
+.file-name {
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #1e293b;
+  word-break: break-word;
+}
+
+.view-button {
+  background-color: #0a5bf2;
+  color: white;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  align-self: flex-start;
+}
+
+.view-button:hover {
+  background-color: #084acc;
+}
+
+@media (max-width: 600px) {
+  .main-title {
+    font-size: 1.8rem;
+  }
+
+  .upload-button,
+  .file-button {
+    width: 100%;
+  }
+}

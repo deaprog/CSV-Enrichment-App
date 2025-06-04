@@ -1,0 +1,9 @@
+celery==5.2.7
+Django==3.2.6
+redis==3.5.3
+psycopg2-binary==2.8.6
+djangorestframework==3.12.4
+django-cors-headers==3.10.0
+pandas==1.3.3
+django-cors-headers
+numpy==1.23.5
