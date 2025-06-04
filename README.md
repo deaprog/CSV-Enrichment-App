@@ -23,7 +23,7 @@ The project was built as part of the Adverity Full-Stack challenge, where users 
 ### 1. Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/csv-enrichment-app.git
+git clone https://github.com/deaprog/csv-enrichment-app.git
 cd csv-enrichment-app
 
 ### 2. Run Method:
